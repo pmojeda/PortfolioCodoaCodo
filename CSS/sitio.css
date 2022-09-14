@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+:root{
+    --black: #000;
+    --white: #FFF;
+    --colorDeFondo: #3CB371;
+    --colorDeFondoLight: #90EE90;
+    --sm: 0.5em;
+    --md: 1em;
+    --lg: 2em;
+    --xl: 3em;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    background-color: var(--colorDeFondo);
+    height: 4em;
+    display: flex;
+    flex-direction: row;
+    border-bottom: var(--white) dotted 1px;
+}
+
+footer{
+    background-color: var(--colorDeFondo);
+    height: 3.5em;
+    border-top: var(--white) dotted 1px;
+    text-align: center;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+}
+
+footer ul li{
+    margin: 1em;
+}
+
+footer a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+footer a:hover{
+    color: var(--colorDeFondoLight);
+}
+
+.LogoTexto{
+    font-size: var(--xl);
+    color: var(--white);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.NavBar{
+    margin: auto;
+}
+
+.NavBar ul{   
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    font-size: var(--md);
+}
+
+.NavBar ul li{
+    margin-right: 2.5em;
+}
+
+.NavBar a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.NavBar a:hover{
+    color: var(--colorDeFondoLight);
+}
+
+.SeccionInicio {
+    background-color: var(--colorDeFondo);
+    display: flex;
+    flex-direction: row;
+    padding: 3em;
+}
+
+.SeccionInicio img{
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+}
+
+.Presentacion{
+    margin: 3.5em;
+}
+
+.Presentacion1{
+    color: var(--white);
+    margin-bottom: 1.5em;
+    font-style: italic;
+}
+
+.Presentacion2{
+    color: var(--white);
+    margin-bottom: 1em;
+    font-size: var(--xl);
+    font-style: italic;
+}
+
+.Presentacion3{
+    color: var(--white);
+    font-style: italic;
+}
