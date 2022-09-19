@@ -124,10 +124,10 @@ footer a:hover{
 .SeccionPortfolio{
     text-align: center;
     background-color: var(--white);
-    padding: 3em;
+    padding: 2em;
 }
 
-.TituloPortfolio{
+.TituloSeccion{
     color: var(--black);
     margin-bottom: 1em;
 }
@@ -153,14 +153,119 @@ footer a:hover{
     width: 18em;
 }
 
-.ProyectoInfo{
+.Proyecto-Info{
     display: flex;
     flex-direction: row;
     column-gap: 0.5em;
     justify-content: center;
 }
 
-.ProyectoInfo a{
+.Proyecto-Info a{
     text-decoration: none;
     color: var(--black);
 }
+
+.SeccionAcercaDeMi{
+    text-align: center;
+    background-color: var(--white);
+    padding: 2em;
+}
+
+.AcercaDeMi-Container{
+    display:flex;
+    flex-direction: row;
+    column-gap: 1.5em;
+}
+
+.AcercaDeMi-Container img{
+    height: 28vw;
+    width: 33vw;
+    border-radius: 10px;
+}
+
+.AcercaDeMi-Info p:nth-child(2) {
+    text-align: justify;
+    font-style: italic;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.AcercaDeMi-SkillName{
+    margin-top: 0.5em;
+    text-align: justify;
+}
+
+.progress {
+    background: var(--colorDeFondoLight);
+    border-radius: 100px;
+    align-items: center;
+    padding: 0 5px;
+    display: flex;
+    height: 20px;
+    width: 70%;
+  }
+
+  .progress-html {
+    animation: load-html 3s normal forwards;
+    border-radius: 100px;
+    background: var(--white);
+    height: 13px;
+    width: 0;
+  }
+  
+  @keyframes load-html {
+    0% { width: 0; }
+    100% { width: 80%; }
+  }
+
+  .progress-css {
+    animation: load-css 3s normal forwards;
+    border-radius: 100px;
+    background: var(--white);
+    height: 13px;
+    width: 0;
+  }
+  
+  @keyframes load-css {
+    0% { width: 0; }
+    100% { width: 65%; }
+  }
+
+  .progress-javascript {
+    animation: load-javascript 3s normal forwards;
+    border-radius: 100px;
+    background: var(--white);
+    height: 13px;
+    width: 0;
+  }
+  
+  @keyframes load-javascript {
+    0% { width: 0; }
+    100% { width: 60%; }
+  }
+
+  .progress-nodejs {
+    animation: load-nodejs 3s normal forwards;
+    border-radius: 100px;
+    background: var(--white);
+    height: 13px;
+    width: 0;
+  }
+  
+  @keyframes load-nodejs {
+    0% { width: 0; }
+    100% { width: 70%; }
+  }
+
+  .progress-reactjs {
+    animation: load-reactjs 3s normal forwards;
+    border-radius: 100px;
+    background: var(--white);
+    height: 13px;
+    width: 0;
+  }
+  
+  @keyframes load-reactjs {
+    0% { width: 0; }
+    100% { width: 40%; }
+  }
