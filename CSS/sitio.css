@@ -55,84 +55,84 @@ footer a:hover{
     color: var(--colorDeFondoLight);
 }
 
-.LogoTexto{
+.logo-texto{
     font-size: var(--xl);
     color: var(--white);
     margin-top: auto;
     margin-bottom: auto;
 }
 
-.NavBar{
+.navbar{
     margin: auto;
 }
 
-.NavBar ul{   
+.navbar ul{   
     display: flex;
     flex-direction: row;
     list-style: none;
     font-size: var(--md);
 }
 
-.NavBar ul li{
+.navbar ul li{
     margin-right: 2.5em;
 }
 
-.NavBar a {
+.navbar a {
     text-decoration: none;
     color: var(--white);
 }
 
-.NavBar a:hover{
+.navbar a:hover{
     color: var(--colorDeFondoLight);
 }
 
-.SeccionInicio {
+.seccion-inicio {
     background-color: var(--colorDeFondo);
     display: flex;
     flex-direction: row;
     padding: 3em;
 }
 
-.SeccionInicio img{
+.seccion-inicio img{
     height: 30vw;
     width: 30vw;
     border-radius: 50%;
 }
 
-.Presentacion{
+.presentacion{
     margin: 3.5em;
 }
 
-.Presentacion1{
+.presentacion1{
     color: var(--white);
     margin-bottom: 1.5em;
     font-style: italic;
 }
 
-.Presentacion2{
+.presentacion2{
     color: var(--white);
     margin-bottom: 1em;
     font-size: var(--xl);
     font-style: italic;
 }
 
-.Presentacion3{
+.presentacion3{
     color: var(--white);
     font-style: italic;
 }
 
-.SeccionPortfolio{
+.seccion-portfolio{
     text-align: center;
     background-color: var(--white);
     padding: 2em;
 }
 
-.TituloSeccion{
+.titulo-seccion{
     color: var(--black);
     margin-bottom: 1em;
 }
 
-.SeccionPortfolio ul{
+.seccion-portfolio ul{
     display: flex;
     flex-direction: row;
     column-gap: 1em;
@@ -140,57 +140,58 @@ footer a:hover{
     justify-content: center;
 }
 
-.Proyecto{
+.proyecto{
     border: 1px solid;
     border-radius: 10px;
     height: 22em;
     width: 18em;
     overflow: hidden;
+    border-color: var(--colorDeFondoLight);
 }
 
-.Proyecto img{
+.proyecto img{
     height: 18em;
     width: 18em;
 }
 
-.Proyecto-Info{
+.proyecto-info{
     display: flex;
     flex-direction: row;
     column-gap: 0.5em;
     justify-content: center;
 }
 
-.Proyecto-Info a{
+.proyecto-info a{
     text-decoration: none;
     color: var(--black);
 }
 
-.SeccionAcercaDeMi{
+.seccion-acercademi{
     text-align: center;
     background-color: var(--white);
     padding: 2em;
 }
 
-.AcercaDeMi-Container{
+.acercademi-container{
     display:flex;
     flex-direction: row;
     column-gap: 1.5em;
 }
 
-.AcercaDeMi-Container img{
+.acercademi-container img{
     height: 28vw;
     width: 33vw;
     border-radius: 10px;
 }
 
-.AcercaDeMi-Info p:nth-child(2) {
+.acercademi-info p:nth-child(2) {
     text-align: justify;
     font-style: italic;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-.AcercaDeMi-SkillName{
+.acercademi-skillname{
     margin-top: 0.5em;
     text-align: justify;
 }
@@ -269,3 +270,60 @@ footer a:hover{
     0% { width: 0; }
     100% { width: 40%; }
   }
+
+.seccion-contacto{
+    text-align: center;
+    background-color: var(--white);
+    padding: 2em;
+}
+
+.contacto-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    margin-top: 0.3em;
+}
+
+.contacto-field{
+    border: 1px solid var(--colorDeFondoLight);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.contacto-nombre{
+    width: 30em;
+}
+
+.contacto-email{
+    width: 30em;
+}
+
+.contacto-asunto{
+    width: 60em;
+}
+
+.contacto-mensaje{
+    width: 60em;
+    height: 15em;
+}
+
+.contacto-button{
+    background-color: var(--white);
+    width: 5em;
+}
+
+.alert-box {
+	width: 50em;
+    height: 2em;
+    padding: 0.5em;
+    margin: auto;
+    border: 1px solid transparent;
+    border-radius: 5px;  
+}
+
+.validation {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}

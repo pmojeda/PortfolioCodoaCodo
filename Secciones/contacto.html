@@ -15,10 +15,10 @@
 <body>
     <!--<script src="header.js"></script>-->
     <header> 
-        <div class="LogoTexto">
+        <div class="logo-texto">
             <p>Portfolio</p> 
         </div>
-        <nav class="NavBar">
+        <nav class="navbar">
             <ul>
                 <li><a href="/index.html">Inicio</a></li>
                 <li><a href="acercademi.html">Acerca de mi</a></li>
@@ -29,8 +29,27 @@
         </nav>
     </header>
 
-    <section class="SeccionContacto">
+    <section class="seccion-contacto">
+        <h1 class="titulo-seccion">Contactarme</h1>
 
+        <div id="msgValidation" class="alert-box validation" hidden></div>
+
+        <form name="frmContacto" action="https://formspree.io/f/xbjborra" method="post" class="contacto-form">            
+            <div>
+                <input type="text" name="Nombre" placeholder="Su Nombre y Apellido" class="contacto-field contacto-nombre" required>
+                <input type="email" name="EMail" placeholder="Su E-Mail" class="contacto-field contacto-email" minlength="5" required>
+            </div>
+            
+            <div>
+                <input type="text" name="Asunto" placeholder="Asunto" class="contacto-field contacto-asunto" required>
+            </div>
+
+            <div>
+                <textarea name="Mensaje" class="contacto-field contacto-mensaje" placeholder="Mensaje" required></textarea>
+            </div>
+
+            <input type="button" value="Enviar" class="contacto-field contacto-button" onclick="enviarMail();">
+        </form>
     </section>
 
     <footer>
@@ -51,5 +70,7 @@
             </li>
         </ul>
     </footer>
+
+    <script src="/JS/lib-contacto.js"></script>
 </body>
 </html>
