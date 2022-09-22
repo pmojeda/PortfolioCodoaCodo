@@ -181,7 +181,9 @@ footer a:hover{
 .acercademi-container img{
     height: 28vw;
     width: 33vw;
+    border: 1px solid;
     border-radius: 10px;
+    border-color: var(--colorDeFondoLight);
 }
 
 .acercademi-info p:nth-child(2) {
