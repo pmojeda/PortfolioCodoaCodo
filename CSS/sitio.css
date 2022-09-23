@@ -14,6 +14,7 @@
     --lg: 2em;
     --xl: 3em;
     font-family: 'Roboto', sans-serif;
+    --colorTextoLight: #6c757d;
 }
 
 body{
@@ -53,6 +54,14 @@ footer a{
 
 footer a:hover{
     color: var(--colorDeFondoLight);
+}
+
+h3 {
+    color: var(--colorTextoLight);
+}
+
+.texto-light{
+    color: var(--colorTextoLight);
 }
 
 .logo-texto{
@@ -154,11 +163,18 @@ footer a:hover{
     width: 18em;
 }
 
+.proyecto i{
+    color: var(--colorDeFondo);
+    font-size: 1.2em;
+}
+
 .proyecto-info{
     display: flex;
     flex-direction: row;
     column-gap: 0.5em;
     justify-content: center;
+    align-content: center;
+    padding: 15px;
 }
 
 .proyecto-info a{
