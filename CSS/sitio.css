@@ -308,6 +308,12 @@ h3 {
     padding: 2em;
 }
 
+.contacto-detail{
+    display:flex;
+    flex-direction: row;
+    column-gap: 1.5em;
+}
+
 .contacto-form{
     display: flex;
     flex-direction: column;
@@ -339,16 +345,15 @@ h3 {
     height: 15em;
 }
 
-.contacto-enviar{
+.contacto-enviarmensaje{
     background-color: var(--white);
-    width: 5em;
+    width: 10em;
 }
 
 .alert-box {
 	width: 50em;
     height: 2em;
     padding: 0.5em;
-    margin: auto;
     border: 1px solid transparent;
     border-radius: 5px;  
 }
