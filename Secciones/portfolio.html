@@ -18,7 +18,7 @@
         <div class="logo-texto">
             <p>Portfolio</p> 
         </div>
-        <nav class="navbar">
+        <nav class="menu-desktop">
             <ul>
                 <li><a href="/index.html" class="opcion-inactive">Inicio</a></li>
                 <li><a href="acercademi.html" class="opcion-inactive">Acerca de mi</a></li>
@@ -27,59 +27,68 @@
                 <li><a href="contacto.html" class="opcion-inactive">Contacto</a></li>
             </ul>
         </nav>
+        <div class="menu-mobile">
+            <a href="javascript:void(0);" onclick="activarMenuMobile()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <div id="misItemsMobile" class="menu-mobile-items">
+                <ul>
+                    <li><a href="/index.html" class="opcion-inactive">Inicio</a></li>
+                    <li><a href="acercademi.html" class="opcion-inactive">Acerca de mi</a></li>
+                    <li><a href="servicios.html" class="opcion-inactive">Servicios</a></li>
+                    <li><a href="portfolio.html" class="opcion-active">Portfolio</a></li>
+                    <li><a href="contacto.html" class="opcion-inactive">Contacto</a></li>
+                </ul>
+            </div>  
+        </div>
     </header>
 
     <section class="portfolio-container">
         <h1 class="titulo-seccion">Mi Portfolio - Ejemplos</h1>
 
-        <div>
-            <ul>
-                <li>
-                    <div class="proyecto">
-                        <img src="/Imagenes/Turnos.jpg" alt="Proyecto 1">
+        <div class="portfolio-detail">
+            <div class="proyecto">
+                <img src="/Imagenes/Turnos.jpg" alt="Proyecto 1">
 
-                        <div class="proyecto-info">
-                            <p class="texto-light">Turnos online</p>
-                            <a href="https://iturnos.ar/" target="_blank">
-                                <i class="fa fa-eye"></i>
-                            </a>
-                            <a href="https://github.com/pmojeda/PortfolioCodoaCodo" target="_blank">
-                                <i class="fa fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="proyecto">
-                        <img src="/Imagenes/ecommerce.jpg" alt="Proyecto 2">
+                <div class="proyecto-info">
+                    <p class="texto-light">Turnos online</p>
+                    <a href="https://iturnos.ar/" target="_blank">
+                        <i class="fa fa-eye"></i>
+                    </a>
+                    <a href="https://github.com/pmojeda/PortfolioCodoaCodo" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+            </div>
 
-                        <div class="proyecto-info">
-                            <p class="texto-light">E-Commerce</p>
-                            <a href="https://www.otero.com.ar/" target="_blank">
-                                <i class="fa fa-eye"></i>
-                            </a>
-                            <a href="https://github.com/pmojeda/PortfolioCodoaCodo" target="_blank">
-                                <i class="fa fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="proyecto">
-                        <img src="/Imagenes/Bodega.jpg" alt="Proyecto 3">
+            <div class="proyecto">
+                <img src="/Imagenes/ecommerce.jpg" alt="Proyecto 2">
 
-                        <div class="proyecto-info">
-                            <p class="texto-light">Bodega</p>
-                            <a href="https://www.trivento.com/web/index.php" target="_blank">
-                                <i class="fa fa-eye"></i>
-                            </a>
-                            <a href="https://github.com/pmojeda/PortfolioCodoaCodo" target="_blank">
-                                <i class="fa fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </li>
-            </ul>
+                <div class="proyecto-info">
+                    <p class="texto-light">E-Commerce</p>
+                    <a href="https://www.otero.com.ar/" target="_blank">
+                        <i class="fa fa-eye"></i>
+                    </a>
+                    <a href="https://github.com/pmojeda/PortfolioCodoaCodo" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="proyecto">
+                <img src="/Imagenes/Bodega.jpg" alt="Proyecto 3">
+
+                <div class="proyecto-info">
+                    <p class="texto-light">Bodega</p>
+                    <a href="https://www.trivento.com/web/index.php" target="_blank">
+                        <i class="fa fa-eye"></i>
+                    </a>
+                    <a href="https://github.com/pmojeda/PortfolioCodoaCodo" target="_blank">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -101,5 +110,7 @@
             </li>
         </ul>
     </footer>
+
+    <script src="/JS/lib-sitio.js"></script>
 </body>
 </html>

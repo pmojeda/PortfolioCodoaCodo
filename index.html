@@ -11,8 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/914256286c.js" crossorigin="anonymous"></script>
     <link rel="icon" type="image/png" href="Imagenes/favicon-32x32.png" sizes="32x32" />
-<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-
+    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
     <title>Mi Portfolio</title>
 </head>
 <body>
@@ -20,7 +19,7 @@
         <div class="logo-texto">
             <p>Portfolio</p> 
         </div>
-        <nav class="navbar">
+        <nav class="menu-desktop">
             <ul>
                 <li><a href="index.html" class="opcion-active">Inicio</a></li>
                 <li><a href="Secciones/acercademi.html" class="opcion-inactive">Acerca de mi</a></li>
@@ -29,6 +28,21 @@
                 <li><a href="Secciones/contacto.html" class="opcion-inactive">Contacto</a></li>
             </ul>
         </nav>
+        <div class="menu-mobile">
+            <a href="javascript:void(0);" onclick="activarMenuMobile()">
+                <i class="fa fa-bars"></i>
+            </a>
+
+            <div id="misItemsMobile" class="menu-mobile-items">
+                <ul>
+                    <li><a href="index.html" class="opcion-active">Inicio</a></li>
+                    <li><a href="Secciones/acercademi.html" class="opcion-inactive">Acerca de mi</a></li>
+                    <li><a href="Secciones/servicios.html" class="opcion-inactive">Servicios</a></li>
+                    <li><a href="Secciones/portfolio.html" class="opcion-inactive">Portfolio</a></li>
+                    <li><a href="Secciones/contacto.html" class="opcion-inactive">Contacto</a></li>
+                </ul>
+            </div>  
+        </div>
     </header>
 
     <section class="inicio-container">
@@ -60,5 +74,7 @@
             </li>
         </ul>
     </footer>
+
+    <script src="JS/lib-sitio.js"></script>
 </body>
 </html>
