@@ -70,11 +70,11 @@ h3 {
     color: var(--colorTextoLight);
 }
 
-.texto-light{
+.text-light{
     color: var(--colorTextoLight);
 }
 
-.logo-texto{
+.logo-text{
     font-size: var(--xl);
     color: var(--white);
     margin-top: auto;
@@ -92,7 +92,7 @@ h3 {
     color: var(--white);
 }
 
-#misItemsMobile {
+#itemsMobile {
     display: none;
 }
 
@@ -139,17 +139,17 @@ h3 {
     color: var(--colorDeFondoLight);
 }
 
-.opcion-active{
+.item-active{
     text-decoration: none;
     color: var(--colorDeFondoLight);
 }
 
-.opcion-inactive{
+.item-inactive{
     text-decoration: none;
     color: var(--white);
 }
 
-.inicio-container {
+.home-container {
     background-color: var(--colorDeFondo);
     display: flex;
     flex-direction: row;
@@ -157,30 +157,30 @@ h3 {
     align-items: center;
 }
 
-.inicio-container img{
+.home-container img{
     height: 30vw;
     width: 30vw;
     border-radius: 50%;
 }
 
-.presentacion{
+.intro{
     margin: 3.5em;
 }
 
-.presentacion1{
+.intro1{
     color: var(--white);
     margin-bottom: 1.5em;
     font-style: italic;
 }
 
-.presentacion2{
+.intro2{
     color: var(--white);
     margin-bottom: 1em;
     font-size: var(--xl);
     font-style: italic;
 }
 
-.presentacion3{
+.intro3{
     color: var(--white);
     font-style: italic;
 }
@@ -191,7 +191,7 @@ h3 {
     padding: 2em;
 }
 
-.titulo-seccion{
+.section-title{
     color: var(--black);
     margin-bottom: 1em;
 }
@@ -211,7 +211,7 @@ h3 {
     justify-content: center;
 }
 
-.proyecto{
+.project{
     border: 1px solid;
     border-radius: 10px;
     height: 22em;
@@ -220,17 +220,17 @@ h3 {
     border-color: var(--colorDeFondoLight);
 }
 
-.proyecto img{
+.project img{
     height: 18em;
     width: 17em;
 }
 
-.proyecto i{
+.project i{
     color: var(--colorDeFondo);
     font-size: var(--icon-sm);
 }
 
-.proyecto-info{
+.project-info{
     display: flex;
     flex-direction: row;
     column-gap: 0.5em;
@@ -239,24 +239,24 @@ h3 {
     padding: 1em;
 }
 
-.proyecto-info a{
+.project-info a{
     text-decoration: none;
     color: var(--black);
 }
 
-.acercademi-container{
+.aboutme-container{
     text-align: center;
     background-color: var(--white);
     padding: 2em;
 }
 
-.acercademi-detail{
+.aboutme-detail{
     display:flex;
     flex-direction: row;
     column-gap: 1.5em;
 }
 
-.acercademi-detail img{
+.aboutme-detail img{
     height: 28vw;
     width: 33vw;
     border: 1px solid;
@@ -264,14 +264,14 @@ h3 {
     border-color: var(--colorDeFondoLight);
 }
 
-.acercademi-info p:nth-child(2) {
+.aboutme-info p:nth-child(2) {
     text-align: left;
     font-style: italic;
     margin-top: 1em;
     margin-bottom: 1em;
 }
 
-.acercademi-skillname{
+.aboutme-skillname{
     margin-top: 0.5em;
     text-align: justify;
 }
@@ -351,19 +351,19 @@ h3 {
     100% { width: 40%; }
   }
 
-.contacto-container{
+.contact-container{
     text-align: center;
     background-color: var(--white);
     padding: 2em;
 }
 
-.contacto-detail{
+.contact-detail{
     display:flex;
     flex-direction: row;
     column-gap: 1.5em;
 }
 
-.contacto-form{
+.contact-form{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -371,30 +371,30 @@ h3 {
     margin-top: 0.3em;
 }
 
-.contacto-field{
+.contact-field{
     border: 1px solid var(--colorDeFondoLight);
     border-radius: 10px;
     padding: 0.4em;
 }
 
-.contacto-nombre{
+.contact-nombre{
     width: 30em;
 }
 
-.contacto-email{
+.contact-email{
     width: 30em;
 }
 
-.contacto-asunto{
+.contact-asunto{
     width: 60em;
 }
 
-.contacto-mensaje{
+.contact-mensaje{
     width: 60em;
     height: 15em;
 }
 
-.contacto-enviarmensaje{
+.contact-enviarmensaje{
     background-color: var(--white);
     width: 10em;
 }
@@ -413,31 +413,31 @@ h3 {
     border-color: #ebccd1;
 }
 
-.servicios-container{
+.services-container{
     text-align: center;
     background-color: var(--white);
     padding: 2em;
 }
 
-.servicios-container p{
+.services-container p{
     margin-top: 1em;
     font-style: italic;
 }
 
-.servicios-detail{
+.services-detail{
     display:flex;
     flex-direction: row;
     column-gap: 1.5em;
 }
 
-.servicios-item{
+.services-item{
     display:flex;
     flex-direction: row;
     width: 30%;
     overflow: hidden;
 }
 
-.servicios-icon{
+.services-icon{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -448,19 +448,19 @@ h3 {
     padding: 2em;
 }
 
-.servicios-icon i{
+.services-icon i{
     font-size: var(--icon-xl);
     color: var(--colorDeFondo);
 }
 
-.servicios-info{
+.services-info{
     display: flex;
     flex-direction: column;
     text-align: left;
     padding-left: 1em;    
 }
 
-.servicios-info h3{
+.services-info h3{
     text-align: center;
 }
 
@@ -473,32 +473,32 @@ h3 {
         display:block;
     }
 
-    .inicio-container{
+    .home-container{
         flex-direction: column;
     }
 
-    .inicio-container img{
+    .home-container img{
         margin:auto;
     }
 
-    .acercademi-detail{
+    .aboutme-detail{
         flex-direction: column;
     }
 
-    .acercademi-detail img{
+    .aboutme-detail img{
         margin:auto;
     }
 
-    .servicios-detail{
+    .services-detail{
         flex-direction: column;
         row-gap: 1em;
     }
 
-    .servicios-item{
+    .services-item{
         width: 100%;
     }
 
-    .servicios-icon{
+    .services-icon{
         padding: 0.5em;
     }
 
@@ -512,24 +512,24 @@ h3 {
         align-items: center;
     }
 
-    .contacto-detail{
+    .contact-detail{
         flex-direction: column;
         row-gap: 1em;
     }
 
-    .contacto-nombre{
+    .contact-nombre{
         width: 9.4em;
     }
     
-    .contacto-email{
+    .contact-email{
         width: 9.4em;
     }
     
-    .contacto-asunto{
+    .contact-asunto{
         width: 20em;
     }
     
-    .contacto-mensaje{
+    .contact-mensaje{
         width: 20em;
         height: 15em;
     }
@@ -552,16 +552,16 @@ h3 {
         width: 100%;
     }
 
-    .servicios-detail{
+    .services-detail{
         flex-direction: column;
         row-gap: 1em;
     }
 
-    .servicios-item{
+    .services-item{
         width: 100%;
     }
 
-    .servicios-icon{
+    .services-icon{
         padding: 0.5em;
     }
 
@@ -571,24 +571,24 @@ h3 {
         align-items: center;
     }
 
-    .contacto-detail{
+    .contact-detail{
         flex-direction: column;
         row-gap: 1em;
     }
     
-    .contacto-nombre{
+    .contact-nombre{
         width: 15em;
     }
     
-    .contacto-email{
+    .contact-email{
         width: 15em;
     }
     
-    .contacto-asunto{
+    .contact-asunto{
         width: 30em;
     }
     
-    .contacto-mensaje{
+    .contact-mensaje{
         width: 30em;
         height: 15em;
     }
@@ -607,24 +607,24 @@ h3 {
         margin-right: 2.5em;
     }
 
-    .contacto-detail{
+    .contact-detail{
         flex-direction: column;
         row-gap: 1em;
     }
     
-    .contacto-nombre{
+    .contact-nombre{
         width: 15em;
     }
     
-    .contacto-email{
+    .contact-email{
         width: 15em;
     }
     
-    .contacto-asunto{
+    .contact-asunto{
         width: 30em;
     }
     
-    .contacto-mensaje{
+    .contact-mensaje{
         width: 30em;
         height: 15em;
     }
