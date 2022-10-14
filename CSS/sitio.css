@@ -23,25 +23,27 @@
 }
 
 body{
-    height:fit-content;
+    height:100%;
     
 }
 
 header{
-    background-color: var(--colorDeFondo);
+    background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
     height: 4em;
     display: flex;
     flex-direction: row;
     border-bottom: var(--white) dotted 1px;
+    position:fixed;
+    width: 100%;
 }
 
 footer{
-    background-color: var(--colorDeFondo);
+    background-image: linear-gradient(to top, #3cba92 0%,  #0ba360 100%);
     height: 3.5em;
     border-top: var(--white) dotted 1px;
     text-align: center;
     padding-bottom: 0%;
-    position: fixed;
+    position:relative;
     bottom: 0;
     width: 100%;
 }
@@ -79,7 +81,7 @@ h3 {
 }
 
 .logo-text{
-    font-size: var(--xl);
+    font-size: 3.5em;
     color: var(--white);
     margin-top: auto;
     margin-bottom: auto;
@@ -127,6 +129,8 @@ h3 {
 
 .menu-desktop{
     margin: auto;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1em;
 }
 
 .menu-desktop ul{   
@@ -147,20 +151,25 @@ h3 {
 .item-active{
     text-decoration: none;
     color: var(--colorDeFondoLight);
+    font-size: 1.2em;
 }
 
 .item-inactive{
     text-decoration: none;
     color: var(--white);
+    font-size: 1.2em;
 }
 
 .home-container {
     background-color: var(--colorDeFondo);
     display: flex;
     flex-direction: row;
-    padding: 6em;
+    padding-left: 10em;
+    padding-right: 10em;
+    padding-top: 6em;
+    padding-bottom: 1em;
     align-items: center;
-    min-height:fit-content;
+    min-height:100vh;
 }
 
 .home-container img{
@@ -171,30 +180,30 @@ h3 {
 
 .intro{
     margin: 3.5em;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .intro1{
     color: var(--white);
     margin-bottom: 1.5em;
-    font-style: italic;
 }
 
 .intro2{
     color: var(--white);
     margin-bottom: 1em;
     font-size: var(--xl);
-    font-style: italic;
 }
 
 .intro3{
     color: var(--white);
-    font-style: italic;
+    font-size: 1.8em;
+    
 }
 
 .portfolio-container{
     text-align: center;
     background-color: var(--white);
-    padding: 2em;
+    padding: 6em;
     margin-bottom: 50px;
 }
 
@@ -254,7 +263,9 @@ h3 {
 .aboutme-container{
     text-align: center;
     background-color: var(--white);
-    padding: 2em;
+    padding: 6em;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .aboutme-detail{
@@ -361,15 +372,26 @@ h3 {
 .contact-container{
     text-align: center;
     background-color: var(--white);
-    padding: 2em;
-    margin-left: 50px;
+    padding: 6em;
     margin-bottom: 50px;
+    
+}
+
+.section-title{
+    text-align: center;
+}
+
+.map-responsive{
+    margin-top: 0.3em;
 }
 
 .contact-detail{
-    display:flex;
+    display: flex;
     flex-direction: row;
-    column-gap: 1.5em;
+    column-gap: 2em;
+    list-style: none;
+    justify-content: center;
+    
 }
 
 .contact-form{
@@ -378,7 +400,7 @@ h3 {
     align-items: center;
     gap: 15px;
     margin-top: 0.3em;
-    margin-left: 5%;
+    text-align: center;
 }
 
 .contact-field{
@@ -388,29 +410,30 @@ h3 {
 }
 
 .contact-nombre{
-    width: 20em;
+    width: 15em;
 }
 
 .contact-email{
-    width: 20em;
+    width: 15em;
 }
 
 .contact-asunto{
-    width: 40em;
+    width: 30em;
 }
 
 .contact-mensaje{
-    width: 40em;
+    width: 30em;
     height: 15em;
 }
 
 .contact-enviarmensaje{
     background-color: var(--colorDeFondoLight);
     width: 10em;
+    font-size: 1em;
 }
 
 .alert-box {
-	width: 50em;
+	width: 100%;
     height: 2em;
     padding: 0.5em;
     border: 1px solid transparent;
@@ -426,12 +449,12 @@ h3 {
 .services-container{
     text-align: center;
     background-color: var(--white);
-    padding: 2em;
-    margin-bottom: 50px;
+    padding: 6em;
+    height: 100%;
 }
 
 .services-container p{
-    margin-top: 1em;
+    margin-top: 2em;
     font-style: italic;
 }
 
@@ -471,7 +494,7 @@ h3 {
     display: flex;
     flex-direction: column;
     text-align: left;
-    padding-left: 1em;    
+    padding-left: 1em;  
 }
 
 .services-info h3{
@@ -547,6 +570,8 @@ h3 {
         width: 20em;
         height: 15em;
     }
+
+    
 }
 
 @media only screen and (min-width: 601px) and (max-width: 767px)  {
