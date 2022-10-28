@@ -14,7 +14,7 @@
     --lg: 2em;
     --xl: 3em;
     --icon-sm: 1.2em;
-    --icon-md: 1.8em;
+    --icon-md: 2.0em;
     --icon-xl: 4em; 
     --colorDeFondo: #3CB371;
     --colorDeFondoLight: #90EE90;
@@ -85,13 +85,13 @@ h3 {
     color: var(--white);
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: auto;
+    margin-left: 2.0em;
 }
 
 .menu-mobile
 {
     font-size: var(--icon-md);
-    margin: 0.5em 2em 2em 1.7em;
+    margin: 0.5em 0.5em 2em 1.7em;
 }
 
 .menu-mobile a i
@@ -101,14 +101,16 @@ h3 {
 
 #itemsMobile {
     display: none;
+    margin-top: 0.4em;
+
 }
 
-.menu-mobile-items{
-    margin-top: 0.7em;
+.menu-mobile-items{ 
     font-size: 0.7em;
     border: var(--white) 1px solid;
     background-color:  var(--colorDeFondoDark);
-    position:absolute;
+    position:relative;
+    
 }
 
 .menu-mobile-items ul{
@@ -116,7 +118,9 @@ h3 {
 }
 
 .menu-mobile-items li{
-    border: var(--white) 1px dotted;
+    border: var(--dark) 1px solid;
+
+    
 }
 
 .menu-mobile-items a{
@@ -180,7 +184,7 @@ h3 {
 
 .intro{
     margin: 3.5em;
-    font-family: 'Source Code Pro', monospace;
+   /*font-family: 'Source Code Pro', monospace; */
 }
 
 .intro1{
