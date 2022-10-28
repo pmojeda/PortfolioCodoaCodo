@@ -24,7 +24,6 @@
 
 body{
     height:100%;
-    
 }
 
 header{
@@ -85,7 +84,7 @@ h3 {
     color: var(--white);
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 2.0em;
+    margin-left: 1em;
 }
 
 .menu-mobile
@@ -119,8 +118,6 @@ h3 {
 
 .menu-mobile-items li{
     border: var(--dark) 1px solid;
-
-    
 }
 
 .menu-mobile-items a{
@@ -173,7 +170,7 @@ h3 {
     padding-top: 6em;
     padding-bottom: 1em;
     align-items: center;
-    min-height:100vh;
+    min-height:90vh; 
 }
 
 .home-container img{
@@ -207,8 +204,8 @@ h3 {
 .portfolio-container{
     text-align: center;
     background-color: var(--white);
-    padding: 6em;
-    margin-bottom: 50px;
+    padding: 5em 3em 1em 3em;
+    min-height: 90vh;
 }
 
 .section-title{
@@ -267,9 +264,10 @@ h3 {
 .aboutme-container{
     text-align: center;
     background-color: var(--white);
-    padding: 6em;
+    padding: 5em 3em 1em 3em;
     margin-left: 10%;
     margin-right: 10%;
+    min-height:90vh; 
 }
 
 .aboutme-detail{
@@ -376,8 +374,8 @@ h3 {
 .contact-container{
     text-align: center;
     background-color: var(--white);
-    padding: 6em;
-    margin-bottom: 50px;
+    padding: 5em 3em 1em 3em;
+    min-height: 90vh;
     
 }
 
@@ -453,8 +451,8 @@ h3 {
 .services-container{
     text-align: center;
     background-color: var(--white);
-    padding: 6em;
-    height: 100%;
+    padding: 5em 3em 1em 3em;
+    min-height: 90vh;
 }
 
 .services-container p{
@@ -468,7 +466,7 @@ h3 {
     column-gap: 1.5em;
     align-items: center;
     justify-content: space-between;
-    height: 450px;
+    height: 425px;
 }
 
 .services-item{
@@ -506,6 +504,11 @@ h3 {
 }
 
 @media only screen and (max-width: 600px){
+    .logo-text{
+        font-size: 2em;
+        margin-left: 0.5;
+    }
+
     .menu-desktop{
         display: none;
     }
