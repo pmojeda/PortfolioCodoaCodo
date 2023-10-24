@@ -11,6 +11,7 @@ function validarContacto()
 {
     console.log("validando...");
 
+
     document.getElementById("msgValidation").setAttribute('hidden', '');
 
     let nya = document.frmContacto.Nombre.value;

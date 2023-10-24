@@ -490,6 +490,7 @@ h3 {
 .services-icon i{
     font-size: var(--icon-xl);
     color: var(--colorDeFondo);
+	width: 80px;
 }
 
 .services-info{
